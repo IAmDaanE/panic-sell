@@ -688,10 +688,9 @@ while running:
 
         screen.blit(balance_text, (42, 14))
         screen.blit(networth_text, (42, 465))
-        #screen.blit(day_text, (1107, 467))
+        screen.blit(day_text, (1107, 467))
         screen.blit(amount_text, (555, 473))
-        screen.blit(market_state_text, (1107,467))
-
+        
         screen.blit(apple_owned_text, (18, 80))
         screen.blit(microsoft_owned_text, (18, 155))
         screen.blit(bmw_owned_text, (18, 230))

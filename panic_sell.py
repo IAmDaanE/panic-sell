@@ -6,8 +6,8 @@ import sys
 pygame.init()
 pygame.mixer.init()
 
-screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
-pygame.display.set_caption("trading treats")
+screen = pygame.display.set_mode((1280, 728), pygame.SCALED | pygame.RESIZABLE)
+pygame.display.set_caption("Panic Sell")
 clock = pygame.time.Clock()
 
 import matplotlib  #type: ignore
